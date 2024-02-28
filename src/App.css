@@ -1,38 +1,128 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html{
+  font-size: 62.5%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,246,145,1) 70%);
+  font-size: 1.6rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.logo img{
+  height: 10rem;
+  width: 30rem;
+}
+
+.mid{
+  display: flex;
+  justify-content: center;
+}
+
+.mid .img1{
+  height: 45rem;
+  width: 40rem;
+}
+
+.mid .para ul li{
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  margin-left: 2.5rem;
+}
+
+.mid .para p span{
+  font-weight: 500;
+}
+
+.mid .img2{
+  height: 30rem;
+  width: 50rem;
+}
+
+.below1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.below2 .img3{
+  height: 50rem;
+  width: 150rem;
+}
+
+.below3{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin: 2rem 0rem;
+  border-bottom: 1rem red;
+}
+
+.below4{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin: 2rem 0rem;
+}
+
+.below5{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin: 2rem 0rem;
+}
+
+.footer{
+  background-color: red;
+  height: 10rem;
+  width: 151.9rem;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.footer ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  margin: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.footer ul li{
+  margin-top: 4.2rem;
+}
+
+@media (max-width: 1200px) and (min-width: 991px){
+  html{
+    font-size: 55%;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (max-width: 990px) and (min-width: 768px){
+  html{
+    font-size: 45%;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 481px){
+  html{
+    font-size: 35%;
+  }
+}
+
+@media (max-width: 480px){
+  html{
+    font-size: 25%;
   }
 }
