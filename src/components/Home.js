@@ -4,6 +4,7 @@ import Footer from "./Footer";
 import trophy from "../asserts/1.png";
 import people from "../asserts/2.png";
 import machines from "../asserts/3.png";
+import '../App.css';
 
 const Home = () => {
   return (
